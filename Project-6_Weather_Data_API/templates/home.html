@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather Data API</title>
+</head>
+<body>
+    <h1>Weather Data API</h1>
+    <p><b>Examples:</b></p>
+    <ul>
+        <li><p><strong>List All Stations:</strong> http://127.0.0.1:5002/api/v1/stations</p></li>
+        <li><p><strong>All data for station:</strong> http://127.0.0.1:5002/api/v1/stations/10/temperatures</p></li>
+        <li> <p><strong>One day data:</strong> http://127.0.0.1:5002/api/v1/stations/10/temperatures/1988-10-25</p></li>
+        <li><p><strong>Yearly Data:</strong> http://127.0.0.1:5002/api/v1/stations//10/temperatures/year/1988</p></li>
+    </ul>
+
+    <p>{{data|safe}}</p>
+</body>
+</html>
