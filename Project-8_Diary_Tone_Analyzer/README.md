@@ -76,7 +76,7 @@ pip install -r requirements.txt
 ```
 
 ---
-# ▶️ Run the App
+## ▶️ Run the App
 ```bash
 streamlit run app.py
 ```
@@ -85,7 +85,7 @@ After running, Streamlit will open the app in your browser automatically.
 
 ---
 
-# 🧠 How It Works
+## 🧠 How It Works
 
 1. Loads all .txt diary files from the diary folder.
 2. Extracts text content from each file.
@@ -95,7 +95,7 @@ After running, Streamlit will open the app in your browser automatically.
 
 ---
 
-# 📦 Dependencies
+## 📦 Dependencies
 
 All dependencies are listed in requirements.txt:
 - ```streamlit``` – Web UI framework
