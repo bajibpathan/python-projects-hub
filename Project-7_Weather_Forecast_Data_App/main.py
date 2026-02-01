@@ -22,7 +22,7 @@ if place:
 
     # Handle incorrect city input
     if "Incorrect City" in filtered_data:
-        st.error("You have entered an incorrect city. Please try again!")
+        st.subheader("You have entered an incorrect city. Please try again!")
     else:
         st.subheader(f"{option} for the next {days} days in {place}")
 
